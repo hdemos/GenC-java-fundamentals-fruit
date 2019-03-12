@@ -32,8 +32,13 @@ You should now understand classes and methods and how to write them. You should 
 3. Create a main method inside Apple.java that calls appleColor() and prints out the value.
 
 
+### Exercise 02
+If you don't remember what a primitive data type is, review it first
+https://www.w3schools.com/java/java_data_types.asp
+Read the following on casting:
+https://www.baeldung.com/java-type-casting
 
-
+1. ...
 
 
 
