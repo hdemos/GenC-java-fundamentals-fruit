@@ -185,7 +185,7 @@ The methods in the classes should print out the result of the calculation.
 Read *Chair Wars* from Head First Java
 
 
-
+---
 Extra Resources 
 https://medium.com/@madhupathy/a-beginners-guide-to-java-part-1-of-3-33edf47e47b4
 
