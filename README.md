@@ -21,30 +21,35 @@ Java uses two forward slashes __//__ to note any comments in a .java file.
 A good programmer uses comments useful for those unfamiler with their code. Rather than commenting //refers to 2nd way to calculate x,
 a better comment might be //this method calculates the area of a sphere . 
 
-### Classes & Methods
-Read about classes and methods. 
-https://www.tutorialspoint.com/java/java_basic_syntax.htm
+## Objects & Their Fields
+When we say the “fields” of an object, we mean everything about that object. This is usually primitive types like integer, doubles, etc. An object can also have objects. 
+These are sometimes referred to as __attributes__ or __member variables__.
+For example, an apple object may contain fields like name, color and sweetness.
+Then a fruit object might contain a field names apples that will store all the apples in an array.
 
-You should now understand classes and methods and how to write them. You should also understand how to use java keywords to declare and initialize a primitive variable. 
+### Accessing fields:
+To access an object’s fields, you use the dot modifier ‘.’
+So if you have an object called apple that contained the following fields:
+```java
+String name = honeycrisp;
+String color;
+int sweetnessScale;
+```
+To access the `name` field you would use 
+```apple.name```
+Which you can print like
+```java
+System.out.println(apple.name);
+```
+You can also store this in a string variable or manipulated it like any other string. 
 
-1. Create a java class named Apple.java that has a method named appleColor. The method appleColor() returns a String. 
-2. Declare and initialize a variable myColor with the Data Type of String and value of Red. 
-3. Create a main method inside Apple.java that calls appleColor() and prints out the value.
+```java
+//This sets the variable myAppleName to honeycrisp
+String myAppleName = apple.name;
 
-
-### Exercise 02
-If you don't remember what a primitive data type is, review it first
-https://www.w3schools.com/java/java_data_types.asp
-Read the following on casting:
-https://www.baeldung.com/java-type-casting
-
-1. ...
-
-
-
-
-
-
+//This changes the name field's value.
+apple.name = Gala;
+```
 
 
 
